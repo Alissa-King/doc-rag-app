@@ -5,7 +5,7 @@ Generate an answer from Gemini using retrieved context chunks.
 import google.generativeai as genai
 
 
-CHAT_MODEL = "gemini-1.5-flash"
+CHAT_MODEL = "gemini-2.0-flash"
 MAX_TOKENS = 1024
 
 SYSTEM_PROMPT = """You are a precise document assistant. Answer the user's question \
