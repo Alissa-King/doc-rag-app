@@ -1,6 +1,10 @@
 # Chat with Your Documents
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doc-rag-app.streamlit.app/)
+
 A Retrieval-Augmented Generation (RAG) app that lets you upload a PDF and have a natural conversation about its contents. Built with Streamlit and the Anthropic API.
+
+**[Try it live →](https://doc-rag-app.streamlit.app/)**
 
 ## How it works
 
@@ -31,8 +35,8 @@ PDF upload → text extraction → chunking → Voyage embeddings → cosine sim
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/alissa-king/alissa-king
-cd alissa-king/rag-app
+git clone https://github.com/Alissa-King/doc-rag-app.git
+cd doc-rag-app
 pip install -r requirements.txt
 ```
 
@@ -62,7 +66,7 @@ streamlit run app.py
 ## Project structure
 
 ```
-rag-app/
+doc-rag-app/
 ├── app.py              # Streamlit UI and session management
 ├── rag/
 │   ├── ingest.py       # PDF parsing, chunking, embedding
